@@ -1,0 +1,159 @@
+body{
+    margin-bottom: 0;
+}
+.you {
+    position: relative;
+}
+
+.you_bg {
+    height: 90vh;
+    width: 98vw;
+}
+
+.img-text {
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    top: 50px;
+    left: 41.5vw;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media (max-width:768px) {
+    .you_bg{
+        width: 100%;
+    }
+    .img-text{
+        top: 25%;
+        left: 30%;
+    }
+}
+
+
+.aboutme {
+    text-align: center;
+    color: #312e3f;
+    font-size: 20px;
+}
+
+body>div.about>div.photo>img {
+    border-radius: 50%;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    margin: 45px;
+}
+
+.edu {
+    display: grid;
+    color: white;
+    background-color: #434347;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+    font-size: 20px;
+}
+
+@media (max-width:768px) {
+    .edu{
+        font-size: small;
+    }
+    
+}
+
+.projects {
+    display: flex;
+    gap: 20px;
+}
+
+.project1,
+.project2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    font-size: larger;
+}
+
+.leftimg img,
+.rightimg img {
+    max-height: 100px;
+}
+
+.rightinfo {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .projects{
+        flex-wrap: wrap;
+        font-size: small;
+    }
+}
+
+.contactme{
+    text-align: center;
+    margin: 50px;
+}
+
+.contactme >p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+body > div.contactme > h2{
+    font-size: 30px;
+}
+body > div.contactme > h3{
+    font-size: 25px;
+}
+
+.contactme > button{
+    padding: 15px 30px;
+    font-size: 18px;
+
+    background-color: #434347;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width:768px) {
+    .contactme>p{
+        font-size:15px ;
+    }
+    body > div.contactme > h2{
+        font-size: 25px;
+    }
+    body > div.contactme > h3{
+        font-size: 18px;
+    }
+}
+
+.footer{
+    text-align: center;
+    background-color: #bbbbc0;
+    padding: 30px;
+    font-size: large;
+    margin: 0;
+}
+
+.footer>p{
+    margin: 0;
+    padding: 15px;
+}
+.footer>a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
